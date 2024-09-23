@@ -130,7 +130,7 @@ def get_caption_model():
     encoder = TransformerEncoderLayer(EMBEDDING_DIM, 1)
     decoder = TransformerDecoderLayer(EMBEDDING_DIM, UNITS, 8)
     caption_model = ImageCaptioningModel(cnn_model=cnn_model, encoder=encoder, decoder=decoder)
-    caption_model.load_weights('model_weights.h5')
+    caption_model.load_weights('image_captioning_model.h5')
     return caption_model
 
 def main(image_path):
