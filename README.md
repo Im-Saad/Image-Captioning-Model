@@ -9,11 +9,11 @@ Download the Dataset:
 Preprocess and Train the Model:
    - Run `train.py` to preprocess the dataset, split it into training and validation sets, and train the image captioning model.
    - Trained model weights are saved as `image_captioning_model.h5` after training.
-   # python train.py
+   - 'python train.py'
 
 Generate Captions for New Images:
    -After training, use `inference.py` to generate captions for new images.
-   # python inference.py <path_to_image>
+   - 'python inference.py <path_to_image>'
 
 File Descriptions
 
